@@ -1,0 +1,112 @@
+.calendar-container {
+  background: white;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.calendar-container .rbc-calendar {
+  font-family: inherit;
+}
+
+.calendar-container .rbc-header {
+  padding: 1rem 0;
+  font-weight: 600;
+  color: #2c3e50;
+  border-bottom: 2px solid #667eea;
+}
+
+.calendar-container .rbc-today {
+  background-color: rgba(102, 126, 234, 0.05);
+}
+
+.calendar-container .rbc-off-range-bg {
+  background-color: #f8f9fa;
+}
+
+.calendar-container .rbc-event {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem;
+  color: white;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 8px rgba(102,126,234,0.3);
+}
+
+.calendar-container .rbc-event:hover {
+  box-shadow: 0 4px 12px rgba(102,126,234,0.5);
+}
+
+.calendar-container .rbc-event-label {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.calendar-container .rbc-date-cell {
+  padding: 0.5rem 0;
+}
+
+.calendar-container .rbc-day-bg {
+  border-right: 1px solid #e9ecef;
+}
+
+.calendar-container .rbc-time-slot {
+  border-top: 1px solid #e9ecef;
+}
+
+.calendar-container .rbc-current-time-indicator {
+  background-color: #667eea;
+}
+
+.btn-schedule {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+}
+
+.btn-schedule:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(102,126,234,0.5);
+}
+
+.calendar-form-wrapper {
+  background: white;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-top: 4px solid #667eea;
+}
+
+.calendar-form-wrapper h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.btn-close-form {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+}
+
+.btn-close-form:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(102,126,234,0.5);
+}
